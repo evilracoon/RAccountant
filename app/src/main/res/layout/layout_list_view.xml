@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@id/lblAmount"
+        android:text="@string/lblTime"
+        android:textSize="20sp"
+        android:id="@+id/lblTime"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="5sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/lblTime"
+        android:text="@string/valTime"
+        android:textSize="20sp"
+        android:id="@+id/valTime"
+        android:layout_marginRight="10sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="5sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lblTime"
+        android:text="@string/lblAmount"
+        android:textSize="20sp"
+        android:id="@+id/lblAmount"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="5sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/lblAmount"
+        android:layout_below="@id/lblTime"
+        android:text="@string/valAmount"
+        android:textSize="20sp"
+        android:id="@+id/valAmount"
+        android:layout_marginRight="10sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="5sp"/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lblAmount"
+        android:maxLines="5"
+        android:text="@string/valDescr"
+        android:textSize="20sp"
+        android:id="@+id/valDescr"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_marginTop="5sp"
+        android:scrollbars = "vertical"/>
+
+    <View
+        android:id="@+id/SplitLine_hor1"
+        android:layout_below="@id/valDescr"
+        android:layout_width="match_parent"
+        android:layout_height= "5dp"
+        android:background="#d3d3d3" />
+
+</RelativeLayout>

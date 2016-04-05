@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">RAccountant</string>
+    <string name="lblTime">Time: </string>
+    <string name="valTime">value of time</string>
+    <string name="lblAmount">Amount: </string>
+    <string name="valAmount">value of amount</string>
+    <string name="valDescr">explanation</string>
+    <string name="btnMainAdd">ADD</string>
+    <string name="lblAddTime">Time: </string>
+    <string name="valAddTime">Time Value</string>
+    <string name="lblAddAmount">Amount:</string>
+    <string name="lblAddDescr">Explanation:</string>
+</resources>
